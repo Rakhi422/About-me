@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Rakhi Pandey</title>
+    <style>
+        body {
+            margin: 20px;
+            background-color:white;
+        }
+
+        #header {
+            background-color:rgb(48, 19, 23);
+            color: gray;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #about, #hobbies, #schedule, #contact, #video {
+            margin: 20px 0;
+            background-color: #525659;
+            color:azure;
+        }
+
+        #hobbies ul li:hover {
+            color: #33152b;
+            font-weight: bold;
+        }
+
+        #schedule table, th, td {
+            border: 1px solid #230e1a;
+            padding: 8px;
+        }
+
+        #schedule table {
+            width: 100%;
+        }
+
+        #schedule tr:hover {
+    color: #33152b;
+    font-weight: bold;
+}
+
+
+        #contact input[type="submit"] {
+            background-color: rgb(49, 19, 24);
+            color: white;
+            padding: 10px 20px;
+            border: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>Name-Rakhi Pandey</h1>
+        <p>Roll No-1401/INFI25/017</p>
+    </div>
+
+    <div id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Rakhi Pandey, a  web developer with a strong interest in  web  development using HTML, CSS, JavaScript, and Django. 
+            I enjoy learning about new technologies and improving my coding skills every day.</p>
+    </div>
+
+    <div id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Reading novels</li>
+            <li>Singing</li>
+            <li>Playing badminton</li>
+        </ul>
+    </div>
+
+    <div id="schedule">
+        <h2>Weekly Learning Schedule</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>HTML & CSS</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>JavaScript Basics</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>DOM Manipulation</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Python Programming</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Django Framework</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Project Building</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Rest / Revision</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Me</h2>
+        <form action="" method="post">
+        Name:
+            <input type="text" id="name" name="name">
+            <br/>
+            
+            Email:
+            <input type="email" id="email" name="email" >
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div id="video">
+        <h2>My Favorite YouTube song</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QxuWJ5RFblw?si=NFTXgSPj_2ymr6VQ&amp;start=143" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
